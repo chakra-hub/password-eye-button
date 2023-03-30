@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(23, 123, 236) ;
+    min-width: 1029px;
+    min-height: 609px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 50%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 6px;
+    box-shadow: 0 0 10px gray;
+}
+input{
+    display: block;
+    margin-bottom: 4%;
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 6px;
+}
+input:hover{
+    box-shadow: 0 0 4px gainsboro;
+}
+input:focus{
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 4px rgb(23, 123, 236);
+}
+input::placeholder{
+    color: gainsboro;
+}
+.eye-icon{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top:-55px;
+    left: 145px;
+    overflow: auto;
+    z-index: 1;
+}
+.eye-icon:hover{
+    cursor: pointer;
+}
+button{
+    width: 52%;
+    height: 40px;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(23, 123, 236);
+    outline: none;
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    border-color: rgb(23, 123, 236);
+    background-color: white;
+    color: rgb(23, 123, 236);
+    box-shadow: 0 0 4px rgb(23, 123, 236);
+}
